@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:orientation="vertical"
+    tools:context=".SecondPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_search"
+                    android:gravity="start|center"
+                    android:paddingStart="20dp"
+                    android:text="Search"
+                    android:textColor="#8e8e92"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/butttons"
+                    android:text="igtv"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/butttons"
+                    android:text="shop"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/butttons"
+                    android:text="travel"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/shetland_sheepdog_023" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/cosmos" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/qwerty" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asd_asd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/sad" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/scale_1200" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/shetland_sheepdog_023" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/cosmos" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/qwerty" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asd_asd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/sad" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/scale_1200" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/shetland_sheepdog_023" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/cosmos" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/qwerty" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asd_asd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/sad" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/asdasdasdasd" />
+
+                <ImageView
+                    android:layout_width="137dp"
+                    android:layout_height="137dp"
+                    android:contentDescription="@android:string/copy"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/scale_1200" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#121212"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/insta_home" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/search" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/plus__1_" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/heart" />
+
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/profile" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
